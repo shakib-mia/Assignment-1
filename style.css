@@ -16,8 +16,8 @@ section {
 }
 
 p {
-    font-size: 20px;
-    line-height: 32px;
+    line-height: 30px;
+    margin: 35px 0;
 }
 
 h1 {
@@ -40,6 +40,7 @@ h2 {
 .one-third {
     width: 30%;
     margin: 2%;
+    margin-left: auto;
 }
 
 .two-third {
@@ -80,11 +81,6 @@ img{
     margin: auto;
     margin-right: 1rem;
 }
-
-#heading-section p {
-    line-height: 30px;
-    margin: 35px 0;
-}
 /* Heading Section Ends */
 
 /* Mission Section Start */
@@ -121,8 +117,22 @@ img{
 
 /* Develop Section Starts */
 
-#develop-without-limits p{
+#develop-without-limits {
+    padding: 5% 7rem;
+    background: url(images/illustrators/illustrator-4.png) no-repeat;
+    background-size: 10%;
+    background-position-y: bottom;
+}
 
+#develop-without-limits .d-flex {
+    background: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 13%;
+    background-position: 1px 152px;
+}
+
+#develop-without-limits img {
+    margin-top: 3rem;
 }
 
 /* Develop Section Ends */
