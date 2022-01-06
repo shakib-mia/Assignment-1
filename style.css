@@ -13,11 +13,19 @@ section {
 
 .d-flex {
     display: flex;
-    margin: 0 auto;
+}
+
+p {
+    font-size: 20px;
+    line-height: 32px;
 }
 
 h1 {
     font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
 }
 
 .text-orange {
@@ -31,6 +39,11 @@ h1 {
 
 .one-third {
     width: 30%;
+    margin: 2%;
+}
+
+.two-third {
+    width: 60%;
     margin: 2%;
 }
 
@@ -79,10 +92,6 @@ img{
     text-align: center;
 }
 
-#mission,#vission,#goals {
-
-}
-
 #mission-section img {
     width: 50%;
 }
@@ -108,8 +117,12 @@ img{
     padding: 5%;
     border-radius: 10px;
 }
-
-/* #mission, #vission, #goals {
-
-} */
 /* Mission Section Ends */
+
+/* Develop Section Starts */
+
+#develop-without-limits p{
+
+}
+
+/* Develop Section Ends */
