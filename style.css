@@ -40,7 +40,7 @@ h2 {
 .one-third {
     width: 30%;
     margin: 2%;
-    margin-left: auto;
+    margin-left: 5rem;
 }
 
 .two-third {
@@ -70,7 +70,7 @@ img{
 }
 
 #heading-section h1 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
 }
 
 #heading-section hr {
@@ -136,3 +136,21 @@ img{
 }
 
 /* Develop Section Ends */
+
+/* global-community starts */
+#global-community {
+    background: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position-x: 90%;
+    background-position-y: 99%;
+}
+
+#global-community .two-third {
+    padding: 5% 0;
+}
+
+#global-community .one-third {
+    margin: auto;
+}
+/* global-community ends */
