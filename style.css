@@ -154,3 +154,20 @@ img{
     margin: auto;
 }
 /* global-community ends */
+
+/* Footer section starts */
+footer {
+    color: #fff;
+    text-align: center;
+    background-color: #0B0D17;
+    padding: 1rem 0;
+}
+
+footer h2 {
+    font-family: 'Lobster', cursive;
+}
+
+#year {
+    color: #FF5959;
+}
+/* Footer section Ends */
