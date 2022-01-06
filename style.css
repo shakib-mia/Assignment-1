@@ -1,0 +1,69 @@
+/* Universal Style Starts */
+
+body {
+    color: #333;
+}
+
+.d-flex {
+    display: flex;
+}
+
+
+
+.text-orange {
+    color: #ffaf4e;
+}
+
+.half-width {
+    width: 45%;
+    margin: auto 0;
+}
+
+.one-third {
+    width: 30%
+}
+
+a.btn {
+    background-color: #ff5959;
+    color: white;
+    padding: 10px 26px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+img{
+    width: 80%;
+}
+
+/* Universal Style Ends */
+
+/* Heading Section Starts */
+
+.heading-section {
+    padding-left: 7rem;
+}
+
+.heading-section hr, .heading-section h1 {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.heading-section h1 {
+    font-size: 3.5rem;
+    font-family: 'Merriweather', serif;
+}
+
+.heading-section hr {
+    background: #ff5959;
+    width: 4px;
+    height: 6rem;
+    border-radius: 50px;
+    margin: auto;
+    margin-right: 1rem;
+}
+
+.heading-section p {
+    line-height: 30px;
+    margin: 35px 0;
+}
+/* Heading Section Ends */
