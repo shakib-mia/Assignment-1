@@ -2,13 +2,18 @@
 
 body {
     color: #333;
+    margin: 0;
+    padding: 0;
 }
 
 .d-flex {
     display: flex;
+    margin: 0 auto;
 }
 
-
+h1 {
+    font-size: 3.5rem;
+}
 
 .text-orange {
     color: #ffaf4e;
@@ -39,21 +44,20 @@ img{
 
 /* Heading Section Starts */
 
-.heading-section {
-    padding-left: 7rem;
+#heading-section {
+    padding: 0 7rem;
 }
 
-.heading-section hr, .heading-section h1 {
+#heading-section hr, #heading-section h1 {
     display: inline-block;
     margin-right: 1rem;
 }
 
-.heading-section h1 {
-    font-size: 3.5rem;
+#heading-section h1 {
     font-family: 'Merriweather', serif;
 }
 
-.heading-section hr {
+#heading-section hr {
     background: #ff5959;
     width: 4px;
     height: 6rem;
@@ -62,8 +66,18 @@ img{
     margin-right: 1rem;
 }
 
-.heading-section p {
+#heading-section p {
     line-height: 30px;
     margin: 35px 0;
 }
 /* Heading Section Ends */
+
+/* Mission Section Start */
+#mission-section h1 {
+    text-align: center;
+}
+
+/* #mission, #vission, #goals {
+
+} */
+/* Mission Section Ends */
